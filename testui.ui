@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>827</width>
+    <height>463</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,15 +17,78 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>49</x>
-      <y>49</y>
-      <width>651</width>
+      <x>0</x>
+      <y>0</y>
+      <width>621</width>
       <height>401</height>
      </rect>
     </property>
     <property name="title">
-     <string>GroupBox</string>
+     <string>Main Window</string>
     </property>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>30</y>
+       <width>461</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>459</width>
+        <height>319</height>
+       </rect>
+      </property>
+      <widget class="QListWidget" name="listWidget">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>90</y>
+         <width>256</width>
+         <height>192</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>This is Item 1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Item 2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Item 3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Item 4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Item 5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Item 6</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -33,8 +96,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>22</height>
+     <width>827</width>
+     <height>24</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuData_Visualiser">
@@ -42,7 +105,13 @@
      <string>Data Visualiser</string>
     </property>
    </widget>
+   <widget class="QMenu" name="menuSomething_Else">
+    <property name="title">
+     <string>Something Else</string>
+    </property>
+   </widget>
    <addaction name="menuData_Visualiser"/>
+   <addaction name="menuSomething_Else"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
