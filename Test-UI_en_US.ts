@@ -44,12 +44,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="testui.ui" line="105"/>
+        <location filename="testui.ui" line="103"/>
+        <source>GroupBox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="testui.ui" line="134"/>
         <source>Data Visualiser</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="testui.ui" line="110"/>
+        <location filename="testui.ui" line="139"/>
         <source>Something Else</source>
         <translation type="unfinished"></translation>
     </message>
